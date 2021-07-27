@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
+
+/* Base CSS */
+body,
+html {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  padding: 1rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+header h1 {
+  font-family: "Shrikhand", "cursive";
+  text-align: center;
+}
+
+/* HomePage CSS */
+
+.local {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(243, 243, 243);
+  padding: 1rem;
+}
+.local i {
+  margin-right: 1rem;
+}
+.coco h2 {
+  margin: 0;
+}
+.coco p {
+  font-weight: 300;
+  margin: 1.5rem 0;
+}
+.coco {
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border-radius: 100px;
+  color: #fff;
+  background-color: #686868;
+  background-image: linear-gradient(
+    0deg,
+    rgba(147, 86, 220, 0.9),
+    rgba(255, 121, 218, 0.9)
+  );
+  cursor: pointer;
+  transition-duration: 0.25s;
+  box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+}
