@@ -30,14 +30,19 @@ header h1 {
 .local i {
   margin-right: 1rem;
 }
-.coco h2 {
+.hero {
+  padding: 2rem;
+  text-align: center;
+  background-color: #fafafa;
+}
+.hero h2 {
   margin: 0;
 }
-.coco p {
+.hero p {
   font-weight: 300;
   margin: 1.5rem 0;
 }
-.coco {
+.hero__btn {
   border: 0;
   padding: 0.75rem 1.5rem;
   font-weight: 500;
@@ -53,4 +58,38 @@ header h1 {
   cursor: pointer;
   transition-duration: 0.25s;
   box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+}
+
+.tuto__steps {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: compteListe;
+}
+
+.tuto__step {
+  padding: 1.5rem;
+  margin: 1rem 0 1rem 0.75rem;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.125);
+  border-radius: 1.25rem;
+  background-color: #f6f6f6;
+  display: flex;
+  position: relative;
+}
+.tuto__step:before {
+  counter-increment: compteListe 1;
+  content: counter(compteListe) " ";
+  background: #9356dc;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: absolute;
+  left: -0.75rem;
+}
+.tuto {
+  padding: 2rem 1rem;
 }
