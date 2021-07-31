@@ -4,37 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="menupages.css" />
-
     <script
-      src="https://kit.fontawesome.com/e6a099ee7d.js"
+      src="https://kit.fontawesome.com/7d17636476.js"
       crossorigin="anonymous"
     ></script>
-
-    <title>Projet 3</title>
+    <link rel="stylesheet" href="style/base.css" />
+    <link rel="stylesheet" href="style/homepage.css" />
+    <title>Home Page Restaurant</title>
   </head>
   <body>
-    <!-- LE HEADER -->
-    <header>
-      <h1>ohmyfood</h1>
+    <header class="header">
+      <h1 class="header__logo">ohmyfood</h1>
     </header>
-    <!-- LE MAIN -->
+
     <main>
       <section class="local">
         <i class="fas fa-map-marker-alt local__icon"></i>
         <span class="local__text">Paris, Belleville</span>
       </section>
+
       <section class="hero">
-        <h2 class="hero__title">
-          Réservez le menu qui <br />
-          vous convient
-        </h2>
-        <p class="hero__subtile">
-          Découvrez des restaurants d'exception, sélectionnnés par nos soins
+        <h2 class="hero__title">Réservez le menu qui<br />vous convient</h2>
+        <p class="hero__subtitle">
+          Découvrez des restaurants d'exception, séléctionnés par nos soins
         </p>
-        <a class="hero__btn">Explorez nos restaurants</a>
+        <a class="hero__btn"> Explorer nos restaurants </a>
       </section>
+
       <section class="tuto">
         <div class="container">
           <h2 class="tuto__title">Fonctionnement</h2>
@@ -54,14 +50,15 @@
           </ol>
         </div>
       </section>
-      <!-- LES CARDS -->
-      <section class="restaurants" id="restautants">
+
+      <section class="restaurants" id="restaurants">
         <div class="container">
           <h2 class="restaurants__title">Restaurants</h2>
+
           <div class="cards">
             <a class="card" href="./lapalettedugout.html">
               <img
-                src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                src="./img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
                 alt=""
                 class="card__img"
               />
@@ -91,9 +88,10 @@
                 </div>
               </footer>
             </a>
+
             <a class="card" href="./lanoteenchantee.html">
               <img
-                src="./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
+                src="./img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
                 alt=""
                 class="card__img"
               />
@@ -123,15 +121,17 @@
                 </div>
               </footer>
             </a>
-            <a class="card" href="./alafrançaise.html">
+
+            <a class="card" href="./alafrancaise.html">
               <img
-                src="./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+                src="./img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
                 alt=""
                 class="card__img"
               />
+              <!-- <span class="card__badge">Nouveau</span> -->
               <footer class="card__footer">
                 <div class="card__content">
-                  <h3 class="card__title">A la française</h3>
+                  <h3 class="card__title">À la française</h3>
                   <span class="card__subtitle">Cité Rouge</span>
                 </div>
                 <div class="menu__btn card__btn">
@@ -154,12 +154,14 @@
                 </div>
               </footer>
             </a>
+
             <a class="card" href="./ledelicedessens.html">
               <img
-                src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+                src="./img/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
                 alt=""
                 class="card__img"
               />
+              <!-- <span class="card__badge">Nouveau</span> -->
               <footer class="card__footer">
                 <div class="card__content">
                   <h3 class="card__title">Le délice des sens</h3>
@@ -189,6 +191,7 @@
         </div>
       </section>
     </main>
+
     <footer class="footer">
       <div class="container">
         <span class="footer__logo">ohmyfood</span>
