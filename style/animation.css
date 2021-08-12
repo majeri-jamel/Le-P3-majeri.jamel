@@ -28,3 +28,18 @@
     transform: translateY(0);
   }
 }
+
+@keyframes jumpItem {
+  0% {
+    transform: translateY(0.5rem);
+  }
+  50% {
+    transform: translateY(0.25rem);
+  }
+  75% {
+    transform: translateY(0.15rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
