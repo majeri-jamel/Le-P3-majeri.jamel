@@ -48,6 +48,7 @@
   background-color: rgb(224, 221, 221);
   font-size: 1.2rem;
   position: relative;
+  align-items: center;
 }
 
 .local__icon {
@@ -55,6 +56,8 @@
 }
 .local__text {
   font-weight: 700;
+  font-size: 1.2rem;
+  display: block;
 }
 
 .hero {
@@ -145,7 +148,7 @@
   align-items: center;
   color: white;
   position: absolute;
-  left: -0.75rem;
+  left: -0.75rem;/*MDN*/
 }
 .tuto__icon {
   margin-right: 1rem;
